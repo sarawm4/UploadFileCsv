@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/FinnotechProject/config
+/.vs/FinnotechProject/DesignTimeBuild
+/.vs/FinnotechProject/FileContentIndex
+/.vs/FinnotechProject/v16
+/.vs/FinnotechProject/v17/TestStore/0
+/.vs/FinnotechProject/v17
+/.vs/ProjectEvaluation
+/Application/bin/Debug/net7.0
+/Application/obj
+/Domain/bin/Debug/net7.0
+/Domain/obj
+/Endpoint/bin/Debug/net7.0
+/Endpoint/obj
+/EndpointTest/bin/Debug/net7.0
+/EndpointTest/obj
+/Infrastructures/obj
+/Infrastructures/bin/Debug/net7.0
+/Persistence/bin/Debug/net7.0
+/Persistence/obj
