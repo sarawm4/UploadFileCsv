@@ -18,7 +18,7 @@ namespace EndpointTest
         {
             // Arrange
             var content = new MultipartFormDataContent();
-            var bytes = "Code,Name,Value\n001,Widget A,10\n002,Widget B,5"u8.ToArray();
+            var bytes = "Code,Name,Value\n02,Widget A,10\n01,Widget B,5"u8.ToArray();
             content.Add(new ByteArrayContent(bytes), "file", "test.csv");
 
             // Act
@@ -34,7 +34,7 @@ namespace EndpointTest
         {
             // Arrange
             var content = new MultipartFormDataContent();
-            var bytes = "Code,Name,Value\n001,Widget A,10\n002,Widget B,5"u8.ToArray();
+            var bytes = "Code,Name,Value\n03,Widget A,10\n04,Widget B,5"u8.ToArray();
             content.Add(new ByteArrayContent(bytes), "file", "test.csv");
 
             // Act
